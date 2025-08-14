@@ -6,6 +6,7 @@ It is fully responsive (desktop/tablet/mobile), includes mock APIs (JSON), and i
 ---
 
 ## 📦 Features
+
 - **Screens**: Dashboard, Leaderboard, Students, **Classes**, **Attendance**, Analytics/Reports, Settings
 - **Responsive UI** with TailwindCSS and accessible components
 - **Charts** (bar + pie) mirroring the PDF visuals (via Recharts)
@@ -19,6 +20,7 @@ It is fully responsive (desktop/tablet/mobile), includes mock APIs (JSON), and i
 ---
 
 ## 🗂 Folder Structure
+
 ```
 speakgenie-admin/
 ├─ app/                      # Next.js (App Router) pages
@@ -54,6 +56,7 @@ speakgenie-admin/
 ---
 
 ## 🛠 Tech Stack
+
 - **Next.js 14** (App Router, React 18)
 - **TailwindCSS** for styling
 - **Lucide** icons
@@ -64,6 +67,7 @@ speakgenie-admin/
 ---
 
 ## 🚀 Quick Start (Step‑by‑Step)
+
 1. **Extract** the ZIP to any folder on your computer.
 2. **Open a terminal** in that folder.
 3. Run:
@@ -78,19 +82,24 @@ That’s it. No extra configuration required.
 ---
 
 ## 🧪 Testing Instructions
+
 This project includes a very simple test that ensures the app **builds** and required data/files are present.
 
 Run:
+
 ```bash
 npm test
 ```
+
 What it does:
+
 - Builds the project (`next build`).
 - Runs a **smoke test** (`scripts/smoke.js`) that validates presence of key files and JSON data.
 
 ---
 
 ## 📱 Responsive Design
+
 - **Mobile-first** layout; cards stack on small screens
 - **Breakpoints**: Tailwind defaults (sm, md, lg, xl)
 - Sidebar collapses on small screens; content adapts to single column
@@ -99,6 +108,7 @@ What it does:
 ---
 
 ## 🔧 Usage & Customization
+
 - Replace mock data in `lib/mockData.json` with your API calls.
 - Example: swap `import data from "@/lib/mockData.json";` with `const data = await fetch("/api/...").then(r=>r.json())`.
 - To integrate **Apollo/GraphQL** or **NextAuth**, install packages and add providers in `app/layout.tsx`.
@@ -106,6 +116,7 @@ What it does:
 ---
 
 ## 📄 Assignment Coverage
+
 - Converts PDF design into a working frontend.
 - Implements the core screens: **Dashboard, Students, Classes, Attendance, Reports (Analytics), Settings, Leaderboard**.
 - Uses React (Next.js), Tailwind, and mock JSON data.
@@ -115,25 +126,27 @@ What it does:
 ---
 
 ## ❓ Troubleshooting
+
 - If port 3000 is busy: `npm run dev -- -p 3001` then visit `http://localhost:3001`.
 - If you see type errors, ensure Node 18+ and npm 9+ are installed.
 
 ---
 
 ## 📜 License
+
 This project is licensed under the **MIT License** (see `LICENSE`).
 
 ---
 
 ## 👤 Author & Contact
-**Name**: Kishan Kumar 
-**Email**: your.email@example.com  
-**Phone**: +91-XXXXXXXXXX
+
+**Name**: Kishan Kumar
 
 > Replace with your actual details before submission.
 
 ---
 
 ## ✅ Compatibility
+
 - Runs on macOS/Windows/Linux with **Node.js 18+**.
 - No external services required.
